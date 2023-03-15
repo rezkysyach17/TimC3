@@ -1,4 +1,32 @@
 @media (max-width: 1000px) {
+  
+  /****** MAIN RESPONSIVE ******/
+  .main-image {
+    height: 512px;
+  }
+  .main-content {
+    padding: 144px 48px 0 48px;
+  }
+  .main-content h1 {
+    font-size: 32px;
+  }
+
+  .main-content h2,
+  .main-content p {
+    font-size: 18px;
+  }
+
+  .main-form div {
+    width: 400px;
+    height: 64px;
+  }
+
+  .main-form input,
+  .main-form button {
+    font-size: 16px;
+  }
+}
+
   .container {
     width: 950px;
   }
@@ -29,6 +57,21 @@
 }
 
 @media (max-width: 670px) {
+
+   /****** MAIN RESPONSIVE ******/
+  .main-content {
+    padding: 112px 48px 0 48px;
+  }
+  .main-content h1 {
+    font-size: 28px;
+  }
+
+  .main-form div {
+    width: 352px;
+    height: 56px;
+  }
+  
+  
   .container {
     width: 640px;
   }
