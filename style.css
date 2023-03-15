@@ -128,3 +128,60 @@ body {
   height: 150px;
   margin: 50px 50px 50px 100px;
 }
+
+/* Footer */
+footer {
+  border-top: 3px solid #9e9e9e;
+  background-color: black;
+  padding-top: -10px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.createdBy {
+  margin-right: 100px;
+  float: right;
+}
+
+.createdBy p {
+  /* margin-top: -7px; */
+  margin: 10px, 0;
+  font-size: 18px;
+}
+
+.bantuan {
+  font-size: 20px;
+  margin-left: 200px;
+  float: left;
+}
+
+.bantuan a {
+  color: white;
+  text-decoration: underline;
+}
+
+.bantuan a:hover {
+  color: blue;
+}
+
+.supportedBy {
+  color: black;
+  background-color: #9e9e9e;
+  font-size: 20px;
+  margin-top: 190px;
+  text-align: center;
+}
+.supportedBy a {
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+}
+
+.supportedBy p:hover {
+  background-color: black;
+  color: white;
+}
+
+.supportedBy a:hover {
+  color: rgb(52, 108, 228);
+}
