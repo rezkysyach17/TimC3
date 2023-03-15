@@ -1,5 +1,4 @@
 @media (max-width: 1000px) {
-  
   /****** MAIN RESPONSIVE ******/
   .main-image {
     height: 512px;
@@ -48,16 +47,145 @@
   .daftar-film {
     flex-wrap: wrap;
     flex-direction: row;
-    padding-bottom: 500px;
+    padding-bottom: 800px;
   }
   .event {
-    height: 1900px;
+    height: 1600px;
+  }
+  .form-feedback {
+    width: 100%;
+  }
+
+  .judul h1 {
+    font-size: 50px;
+  }
+
+  .nama-mu {
+    width: 95%;
+    font-size: 14px;
+  }
+
+  .nama-mu:focus {
+    padding-left: 13px;
+  }
+
+  .email-mu {
+    margin-top: 20px;
+    width: 95%;
+    font-size: 14px;
+  }
+
+  .email-mu:focus {
+    padding-left: 13px;
+  }
+
+  .pesan-mu {
+    margin-top: 20px;
+    width: 95%;
+    height: 100px;
+    font-size: 14px;
+  }
+
+  .pesan-mu:focus {
+    padding-left: 13px;
+  }
+
+  .btn-mu {
+    margin-top: 25px;
+    width: 95%;
+    background-color: rgba(255, 254, 254, 0.078);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+  }
+
+  .btn-mu:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+
+  /* footer */
+  footer {
+    float: none;
+    height: auto;
+  }
+
+  .ckck {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .bantuan {
+    padding-left: 20px;
+    float: left;
+    margin-left: 0;
+    text-align: left;
+  }
+  .createdBy {
+    padding-right: 20px;
+    text-align: right;
+    width: 100%;
+    float: none;
+  }
+  .supportedBy {
+    margin-top: 70px;
+    text-align: center;
   }
 }
 
-@media (max-width: 670px) {
 
-   /****** MAIN RESPONSIVE ******/
+/* hp */
+@media (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .tes {
+    display: block;
+  }
+
+  .tes i {
+    cursor: pointer;
+  }
+
+  .tes i:hover{
+    color: red;
+  }
+
+  .drop {
+    display: block;
+    position: absolute;
+    top: 55px;
+    height: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.128);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .drop.open{
+    height: auto;
+  }
+  
+  .drop li {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .drop a{
+    color: white;
+  }
+
+  .drop a:hover{
+    color: red;
+  }
+
+  /****** MAIN RESPONSIVE ******/
   .main-content {
     padding: 112px 48px 0 48px;
   }
@@ -69,8 +197,7 @@
     width: 352px;
     height: 56px;
   }
-  
-  
+
   .container {
     width: 640px;
   }
@@ -93,7 +220,7 @@
   .daftar-film {
     flex-wrap: wrap;
     flex-direction: row;
-    padding-bottom: 900px;
+    padding-bottom: 1200px;
   }
   .event {
     height: 2000px;
@@ -108,7 +235,12 @@
     width: 600px;
     margin-left: 20px;
   }
-
+  .big-text h1 {
+    font-size: 25px;
+  }
+  .big-text h2 {
+    font-size: 20px;
+  }
   .big-img {
     padding-left: 0;
     height: 200px;
@@ -120,8 +252,6 @@
   }
 
   .container-big2 {
-    padding-top: 20px;
-    padding-bottom: 0;
     height: 250px;
 
     border-bottom: 3px solid rgba(255, 255, 255, 0.8);
@@ -133,26 +263,94 @@
   }
 
   .big-text2 {
-    margin: 20px 50px 50px 20px;
+    margin: 0px 50px 50px 20px;
+  }
+  .big-text2 h1 {
+    font-size: 25px;
+  }
+  .big-text2 h2 {
+    font-size: 20px;
+  }
+
+  .form {
+    padding: 0;
+  }
+
+  .form-feedback {
+    box-shadow: none;
+    border-radius: 0px;
+  }
+
+  .judul h1 {
+    font-size: 40px;
+  }
+
+  .nama-mu {
+    margin-top: 30px;
+    width: 97%;
+    font-size: 16px;
+  }
+
+  .nama-mu:focus {
+    padding-left: 20px;
+  }
+
+  .email-mu {
+    margin-top: 20px;
+    width: 97%;
+    font-size: 16px;
+  }
+
+  .email-mu:focus {
+    padding-left: 20px;
+  }
+
+  .pesan-mu {
+    margin-top: 20px;
+    width: 97%;
+    font-size: 16px;
+  }
+
+  .pesan-mu:focus {
+    padding-left: 20px;
+  }
+
+  .btn-mu {
+    margin-top: 25px;
+    width: 97%;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+  }
+
+  .btn-mu:hover {
+    background-color: black;
+    color: white;
   }
 
   /*Footer  */
   footer {
-    text-align: center;
     float: none;
-    height: 450px;
+    height: auto;
+  }
+
+  .ckck {
+    margin-top: 30px;
+    width: 100%;
   }
   .bantuan {
-    float: none;
+    float: left;
     margin-left: 0;
+    text-align: left;
   }
   .createdBy {
-    margin-right: 0;
-    margin-top: 60px;
+    text-align: right;
+    width: 100%;
     float: none;
   }
   .supportedBy {
-    margin-top: -200px;
+    margin-top: 70px;
     text-align: center;
   }
 }

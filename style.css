@@ -11,12 +11,101 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 55px;
+  width: 100%;
+  background: #000;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  bottom: 10px;
+  z-index: 10;
+}
+
+.header-left h1 {
+  margin-top: 7px;
+  color: white;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 55px;
+  padding: 0 23px;
+  color: #fff;
+  font-size: 20px;
+  display: block;
+  float: left;
+  transition: all 0.7s;
+}
+
+.header-right a:hover {
+  transform: scale(1.1);
+  color: #ff0000;
+}
+
+/* .menu-icon {
+  float: right;
+  display: none;
+}
+
+.menu-icon img {
+  padding-top: 12px;
+} */
+
+.tes {
+    font-size: 20px;
+    display: none;
+    color: white;
+    float: right;
+    font-size: 30px;
+    display: none;
+    margin-top: 5px;
+}
+
+.drop{
+  display: none;
+
+}
+
+/* Awal Desain Logo */
+.logo {
+  position: relative;
+}
+
+.logo h1 {
+  position: absolute;
+  transition: 0.7s;
+}
+
+.logo h1:hover {
+  transform: scale(1.1);
+  color: red;
+}
+
 /****** MAIN SECTION ******/
 
 .main-image {
   max-width: 100%;
   height: 740px;
-  background-image: url("images/main.jpg");
+  background-image: url("Images/main.jpg");
   background-size: cover;
   border-bottom: 8px solid rgb(65, 64, 64);
 }
@@ -96,11 +185,11 @@
 
 body {
   font-family: "Gentium Book Basic", serif;
-   min-height: 100vh;
+  min-height: 100vh;
 }
 
 .event {
-  height: 1600px;
+  height: 1100px;
   width: 100%;
   background-color: black;
   color: white;
@@ -108,7 +197,7 @@ body {
 
 .container {
   width: 1140px;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
 .top-event {
@@ -171,7 +260,7 @@ body {
 
 .container-big {
   display: flex;
-  padding-top: 75px;
+  padding-top: 50px;
   height: 300px;
   padding-bottom: 75px;
   border-bottom: 3px solid rgba(255, 255, 255, 0.8);
@@ -180,7 +269,7 @@ body {
 .big-text {
   width: 400px;
   height: 100px;
-  margin: 100px 50px 0 50px;
+  margin: 50px 50px 0 50px;
 }
 
 .big-img {
@@ -190,13 +279,13 @@ body {
 }
 
 .big-img img {
-  height: 250px;
+  height: 200px;
   max-width: 100%;
 }
 
 .container-big2 {
   display: flex;
-  padding: 75px 0 75px;
+  padding: 50px 0 75px;
   height: 300px;
 
   border-bottom: 3px solid rgba(255, 255, 255, 0.8);
@@ -221,11 +310,118 @@ body {
   margin: 50px 50px 50px 100px;
 }
 
+/* Form */
+.form {
+  background-color: black;
+  height: auto;
+  padding: 50px;
+}
+
+.form-feedback {
+  color: white;
+  background-color: rgba(53, 51, 51, 0.61);
+  box-shadow: 0 0 3px rgba(250, 250, 250, 0.9);
+  border-radius: 6px;
+  width: 400px;
+  margin: auto;
+  padding: 20px 5px;
+  text-align: center;
+}
+
+.judul h1 {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.nama-mu {
+  margin-top: 25px;
+  width: 90%;
+  padding: 5px 5px;
+  color: white;
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+
+.nama-mu:focus {
+  border: 1px solid white;
+  transition: all 0.3s;
+  padding-left: 10px;
+}
+
+.nama-mu:focus::placeholder {
+  color: white;
+}
+
+.email-mu {
+  margin-top: 15px;
+  width: 90%;
+  padding: 5px 5px;
+  color: white;
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+
+.email-mu:focus {
+  border: 1px solid white;
+  transition: all 0.3s;
+  padding-left: 10px;
+}
+
+.email-mu:focus::placeholder {
+  color: white;
+}
+
+.pesan-mu {
+  margin-top: 15px;
+  width: 90%;
+  padding: 5px 5px;
+  height: 150px;
+  color: white;
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+
+.pesan-mu:focus {
+  border: 1px solid white;
+  transition: all 0.3s;
+  padding-left: 10px;
+}
+
+.pesan-mu:focus::placeholder {
+  color: white;
+}
+
+.btn-mu {
+  margin-top: 15px;
+  width: 90%;
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.btn-mu:hover {
+  background-color: white;
+  color: black;
+}
+
 /* Footer */
 footer {
   border-top: 3px solid #9e9e9e;
   background-color: black;
-  padding-top: -10px;
+  padding-top: 40px;
   padding-bottom: 40px;
   color: white;
 }
@@ -253,27 +449,29 @@ footer {
 }
 
 .bantuan a:hover {
-  color: blue;
+  color: red;
 }
 
 .supportedBy {
-  color: black;
-  background-color: #9e9e9e;
+  color: white;
+  background-color: rgba(53, 51, 51, 0.418);
   font-size: 20px;
   margin-top: 190px;
   text-align: center;
+  transition: all 0.5s;
+  padding: 10px 0;
 }
+
+.supportedBy:hover{
+  background-color: rgba(96, 95, 95, 0.418);
+}
+
 .supportedBy a {
   font-size: 20px;
-  color: black;
-  text-decoration: underline;
+  color: red;
 }
 
-.supportedBy p:hover {
-  background-color: black;
-  color: white;
-}
 
 .supportedBy a:hover {
-  color: rgb(52, 108, 228);
+  color: rgb(0, 0, 0);
 }
