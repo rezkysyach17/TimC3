@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gentium Book Basic", serif;
+}
+
+.event {
+  height: 1600px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 1140px;
+  margin: 40px auto;
+}
+
+.top-event {
+  padding-top: 100px;
+  height: 40px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+.top-event h3 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.daftar-film {
+  margin-top: 30px;
+  height: 290px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+}
+
+.kotak-film {
+  width: 15%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.film {
+  width: auto;
+  height: 240px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.film:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 7px 1px rgba(255, 255, 255, 0.5);
+}
+
+.film-gambar {
+  width: 170px;
+  height: 210px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.film-gambar img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+.film p {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.container-big {
+  display: flex;
+  padding-top: 75px;
+  height: 300px;
+  padding-bottom: 75px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+.big-text {
+  width: 400px;
+  height: 100px;
+  margin: 100px 50px 0 50px;
+}
+
+.big-img {
+  width: 400px;
+  height: 300px;
+  padding-left: 200px;
+}
+
+.big-img img {
+  height: 250px;
+  max-width: 100%;
+}
+
+.container-big2 {
+  display: flex;
+  padding: 75px 0 75px;
+  height: 300px;
+
+  border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+.big-img2 {
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.big-img2 img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.big-text2 {
+  width: 600px;
+  height: 150px;
+  margin: 50px 50px 50px 100px;
+}
