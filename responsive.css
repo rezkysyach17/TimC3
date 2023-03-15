@@ -49,6 +49,14 @@
     flex-direction: row;
     padding-bottom: 800px;
   }
+
+  .big-img {
+    padding-left: 50px;
+  }
+
+  .big-text2 {
+    margin-top: 0px;
+  }
   .event {
     height: 1600px;
   }
@@ -133,13 +141,12 @@
   }
 }
 
-
 /* hp */
 @media (max-width: 670px) {
   .header-right {
     display: none;
   }
-  
+
   .tes {
     display: block;
   }
@@ -148,7 +155,7 @@
     cursor: pointer;
   }
 
-  .tes i:hover{
+  .tes i:hover {
     color: red;
   }
 
@@ -165,10 +172,10 @@
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
 
-  .drop.open{
+  .drop.open {
     height: auto;
   }
-  
+
   .drop li {
     padding: 20px;
     display: flex;
@@ -176,12 +183,12 @@
     justify-content: center;
     border-bottom: 1px solid black;
   }
-  
-  .drop a{
+
+  .drop a {
     color: white;
   }
 
-  .drop a:hover{
+  .drop a:hover {
     color: red;
   }
 
@@ -236,14 +243,15 @@
     margin-left: 20px;
   }
   .big-text h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .big-text h2 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .big-img {
     padding-left: 0;
-    height: 200px;
+    height: 100px;
+    margin-top: 40px;
   }
 
   .big-img img {
@@ -266,10 +274,10 @@
     margin: 0px 50px 50px 20px;
   }
   .big-text2 h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .big-text2 h2 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .form {
