@@ -104,9 +104,87 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
   }
+
+  /* footer */
+  footer {
+    float: none;
+    height: auto;
+  }
+
+  .ckck {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .bantuan {
+    padding-left: 20px;
+    float: left;
+    margin-left: 0;
+    text-align: left;
+  }
+  .createdBy {
+    padding-right: 20px;
+    text-align: right;
+    width: 100%;
+    float: none;
+  }
+  .supportedBy {
+    margin-top: 70px;
+    text-align: center;
+  }
 }
 
+
+/* hp */
 @media (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .tes {
+    display: block;
+  }
+
+  .tes i {
+    cursor: pointer;
+  }
+
+  .tes i:hover{
+    color: red;
+  }
+
+  .drop {
+    display: block;
+    position: absolute;
+    top: 55px;
+    height: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.128);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .drop.open{
+    height: auto;
+  }
+  
+  .drop li {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .drop a{
+    color: white;
+  }
+
+  .drop a:hover{
+    color: red;
+  }
+
   /****** MAIN RESPONSIVE ******/
   .main-content {
     padding: 112px 48px 0 48px;
@@ -253,21 +331,26 @@
 
   /*Footer  */
   footer {
-    text-align: center;
     float: none;
-    height: 450px;
+    height: auto;
+  }
+
+  .ckck {
+    margin-top: 30px;
+    width: 100%;
   }
   .bantuan {
-    float: none;
+    float: left;
     margin-left: 0;
+    text-align: left;
   }
   .createdBy {
-    margin-right: 0;
-    margin-top: 60px;
+    text-align: right;
+    width: 100%;
     float: none;
   }
   .supportedBy {
-    margin-top: 100px;
+    margin-top: 70px;
     text-align: center;
   }
 }
