@@ -71,18 +71,17 @@ header {
 } */
 
 .tes {
-    font-size: 20px;
-    display: none;
-    color: white;
-    float: right;
-    font-size: 30px;
-    display: none;
-    margin-top: 5px;
+  font-size: 20px;
+  display: none;
+  color: white;
+  float: right;
+  font-size: 30px;
+  display: none;
+  margin-top: 5px;
 }
 
-.drop{
+.drop {
   display: none;
-
 }
 
 /* Awal Desain Logo */
@@ -201,8 +200,8 @@ body {
 }
 
 .top-event {
-  padding-top: 100px;
-  height: 40px;
+  padding-top: 50px;
+  height: 100px;
   border-bottom: 3px solid rgba(255, 255, 255, 0.8);
 }
 
@@ -287,7 +286,6 @@ body {
   display: flex;
   padding: 50px 0 75px;
   height: 300px;
-
   border-bottom: 3px solid rgba(255, 255, 255, 0.8);
 }
 
@@ -462,7 +460,7 @@ footer {
   padding: 10px 0;
 }
 
-.supportedBy:hover{
+.supportedBy:hover {
   background-color: rgba(96, 95, 95, 0.418);
 }
 
@@ -470,7 +468,6 @@ footer {
   font-size: 20px;
   color: red;
 }
-
 
 .supportedBy a:hover {
   color: rgb(0, 0, 0);
